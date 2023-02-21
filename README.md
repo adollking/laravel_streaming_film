@@ -1,6 +1,25 @@
 # laravel_streaming_film
-<<<<<<< HEAD
 laravel 9 app film streaming
-=======
-laravel 9 app film streaming
->>>>>>> 133d62a7095e52bf560a37d5c774483ac0d2584b
+
+# Technology used
+- Laravel 9
+- Livewire
+- TailwindCSS
+- MySQL
+- ReactJS
+
+# Requirements
+- PHP >= 8.1
+- Composer
+- NodeJS
+- NPM
+- MySQL
+-
+
+# Installation
+- Clone this repo
+- Run `composer install` or `composer update`
+- Run `npm install`
+- Run `npm run dev`
+- Run `cp .env.example .env`
+-
