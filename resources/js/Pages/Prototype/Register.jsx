@@ -39,16 +39,17 @@ export default function Register() {
                         <div>
                             <Label forInput= "password" value= "Password" />
                             <TextInput type="password" name="password"
-                                placeholder="Your Password" value="eeeeeeeeeeeeeee" />
+                                placeholder="Your Password" value="password" />
                         </div>
                     </div>
                     <div className="grid space-y-[14px] mt-[30px]">
-                        <Button>
-                            <span className="text-base font-semibold">
-                                Sign Up
-                            </span>
-                        </Button>
-                        
+                        <Link href={route("prototype.login")}>
+                            <Button>
+                                <span className="text-base font-semibold">
+                                    Sign Up
+                                </span>
+                            </Button>
+                        </Link>
                         <Link href={route("prototype.login")} >
                             <Button variant="light-outline">
                                 <span className="text-base text-white">
